@@ -1,0 +1,14 @@
+/*settings*/
+a.remove_mailing_list {visibility: hidden;}
+tr.member_list:hover a.remove_mailing_list  {visibility: visible; opacity:.5;}
+tr.member_list:hover a.remove_mailing_list:hover {opacity:1;}
+
+/*mailing list*/
+#new_member_form, #upload_vcf_form {display: inline-block;}
+#members_list td, #members_list th {padding: 0 .5em 0 .8em; border-bottom:1px solid #ddd;}
+#members_list {top:3em; position:relative; width:100%;}
+#members_list thead tr {height: 2em;color: #999;}
+.tag {padding: .4em;border: 1px solid #DDD;font-weight: bold;cursor: pointer;background: #F8F8F8;color: #555;text-shadow: white 0 1px 0;-moz-box-shadow: 0 1px 1px #fff,0 1px 1px #fff inset;-webkit-box-shadow: 0 1px 1px white,0 1px 1px white inset;-moz-border-radius: .5em;-webkit-border-radius: .5em;border-radius: .5em;margin-right: .5em;}
+td.remove a {visibility: hidden;cursor: pointer;float:right;}
+tr:hover td.remove a {visibility: visible;}
+#controls input, #controls .button {max-height: 26px;padding: 5px;margin:0;}

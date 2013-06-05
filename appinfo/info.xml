@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<info>
+	<id>mailing_list</id>
+	<name>Mailing List</name>
+	<description>Collection of newsletter subscribers</description>
+	<version>0.3</version>
+	<licence>AGPL</licence>
+	<author>Pete McFarlane</author>
+	<require>4</require>
+
+	<public><addmember id="addmember">addmember.php</addmember></public>
+</info>
